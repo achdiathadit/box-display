@@ -54,16 +54,44 @@ p {
 	border-radius: 10px;
 }
 
+.box-4 {
+	background-color: lightgray;
+	width: 80%;
+	padding: 20px;
+	margin: 1rem;
+	border-radius: 10px;
+}
+
+.box-4:hover {
+	cursor: pointer;
+}
+
 @media (max-width: 576px) {
 	.display-3.box-container {
 		flex-direction: column;
 	}
 }
 
-.display-4.box:hover {
+.red-color.box-4 {
+	background-color: #d61c4e;
+}
+
+.red-color.box-4:hover {
 	cursor: pointer;
 }
 
-.display-4.box:active {
-	background-color: #d61c4e;
+.green-color.box-4 {
+	background-color: #59ce8f;
+}
+
+.green-color.box-4:hover {
+	cursor: pointer;
+}
+
+.blue-color.box-4 {
+	background-color: #0096ff;
+}
+
+.blue-color.box-4:hover {
+	cursor: pointer;
 }

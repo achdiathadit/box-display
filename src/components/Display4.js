@@ -7,6 +7,17 @@ const Display4 = () => {
 					blue, and return to no colour
 				</h3>
 			</header>
+			<div className='box-container'>
+				<div className='display-4 box'>
+					<p>BOX 1</p>
+				</div>
+				<div className='display-4 box'>
+					<p>BOX 2</p>
+				</div>
+				<div className='display-4 box'>
+					<p>BOX 3</p>
+				</div>
+			</div>
 		</div>
 	);
 };

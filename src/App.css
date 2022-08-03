@@ -54,22 +54,16 @@ p {
 	border-radius: 10px;
 }
 
-@media (max-width: 400px) {
-	.display-2.box {
-		background: lightseagreen;
-		width: 10%;
-		padding: 20px;
-		margin: 1rem;
-		border-radius: 10px;
+@media (max-width: 576px) {
+	.display-3.box-container {
+		flex-direction: column;
 	}
 }
 
-@media (max-width: 800px) {
-	.display-2.box {
-		background: lightseagreen;
-		width: 20%;
-		padding: 20px;
-		margin: 1rem;
-		border-radius: 10px;
-	}
+.display-4.box:hover {
+	cursor: pointer;
+}
+
+.display-4.box:active {
+	background-color: #d61c4e;
 }
